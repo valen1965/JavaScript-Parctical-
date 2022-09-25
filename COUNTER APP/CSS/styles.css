@@ -58,3 +58,24 @@ button:hover {
   text-underline-offset: 0.3rem;
   padding: 0.3rem;
 }
+
+#apple-shelf {
+  width: 15rem;
+  height: 2rem;
+  background: rgb(140, 90, 90);
+  display: inline-flex;
+  border-radius: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#orange-shelf {
+  width: 15rem;
+  height: 2rem;
+  background: rgb(117, 90, 46);
+  display: inline-flex;
+  border-radius: 2rem;
+  margin-top: 1rem;
+  justify-content: center;
+  align-items: center;
+}
