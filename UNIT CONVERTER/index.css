@@ -1,0 +1,126 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  padding-top: 33px;
+  ;
+}
+
+h1 {
+  color: #FFFFFF;
+}
+
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+h3 {
+  color: #ccc1ff;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+p {
+  color: #ffffff;
+}
+
+.container {
+  width: 550px;
+  height: 729px;
+}
+
+.container {
+  background: #1F2937;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.hero {
+  border-radius: 20px 20px 0px 0px;
+  background: #6943fe;
+  color: white;
+  height: 285px;
+  padding-bottom: 10px;
+  width: 538px;
+  margin-bottom: 30px;
+}
+
+input {
+  border-radius: 5px;
+  border: 2px solid #B295FF;
+  border-radius: 5px;
+  box-sizing: border-box;
+  height: 83px;
+  left: 217px;
+  position: absolute;
+  top: 101px;
+  width: 117px;
+}
+
+input {
+  background: #6943FF;
+  color: #ffffff;
+  font-size: 58px;
+  font-weight: 800;
+  line-height: 24px;
+  text-align: center;
+}
+
+
+button {
+  border-radius: 5px;
+  height: 42px;
+  left: 217px;
+  position: absolute;
+  top: 209px;
+  width: 117px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+button {
+  background: #FFFFFF;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  color: #3D3D3D;
+}
+
+.card {
+  border-radius: 5px 0px 0px 0px;
+  padding: 5px;
+
+}
+
+.card {
+  background: #273549;
+}
+
+.grid-container {
+  align-content: space-between;
+  display: grid;
+  gap: 20px;
+  grid-template: repeat(3, 110px) / repeat(1, 500px);
+  justify-content: center;
+  padding-bottom: 25px;
+
+}
