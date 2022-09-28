@@ -11,6 +11,7 @@ const inputEl = document.getElementById('input-hero');
 let inputNum = inputEl.value;
 const btnEl = document.getElementById('input-btn');
 
+<<<<<<< HEAD
 
 // clear input on focus.
 
@@ -18,6 +19,8 @@ inputEl.addEventListener("focus", function(){
     inputEl.value = '';
 });
 
+=======
+>>>>>>> 07383da733e1ef188f29ede27eb6144ff35e0df5
 // Execute a function when the user presses a key on the keyboard
 inputEl.addEventListener("keypress", function (event) {
   // If the user presses the "Enter" key on the keyboard
@@ -28,6 +31,10 @@ inputEl.addEventListener("keypress", function (event) {
     document.getElementById("input-btn").click();
     event.target.blur();
     //inputEl.value = '';
+<<<<<<< HEAD
+=======
+
+>>>>>>> 07383da733e1ef188f29ede27eb6144ff35e0df5
   }
 });
 
