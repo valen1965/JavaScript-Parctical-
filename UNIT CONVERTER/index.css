@@ -19,6 +19,7 @@ body {
   align-items: center;
   background-color: #1F2937;
   border-radius: 1rem 0rem 0.5rem 0.5rem;
+  box-sizing:border-box;
   display: flex;
   flex-direction: column;
   height: 73rem;
@@ -66,7 +67,7 @@ body {
   left: 22rem;
   text-align: center;
     top: 10rem;
-  box-sizing: border-box;
+  box-sizing:border-box;
   height: 83px;
   position: absolute;
   width: 117px;
@@ -91,6 +92,7 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
+  
 }
 
 .hero-card:hover {
